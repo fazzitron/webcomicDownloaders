@@ -3,7 +3,7 @@ import urllib.request, urllib.error, urllib.parse, re
 baseURL = "https://www.giantitp.com/comics/"
 linkRgx = """<IMG src="(https:\/\/i\.giantitp\.com\/\/comics\/oots\/.+)">"""
 
-pageNum = 1179
+pageNum = 1
 
 while (pageNum <= 1201):
 	pageURL = baseURL + "oots%04i.html"%pageNum
