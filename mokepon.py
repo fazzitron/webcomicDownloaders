@@ -4,7 +4,7 @@ baseURL = "https://h0lyhandgrenade.co.uk/mokepon/comic/"
 baseDownload = "https://h0lyhandgrenade.co.uk"
 linkRgx = """<meta property="og:image" content="(\/mokepon\/assets\/images\/comics\/\d+\/.+\.[ejnp]+g)"\/>"""
 
-pageNum = 603
+pageNum = 1
 
 while (pageNum <= 1032):
 	pageURL = baseURL + str(pageNum)
